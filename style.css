@@ -1,0 +1,189 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("./images/background-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  cursor: url("./images/paw.png") 16 16, auto;
+}
+
+#features, 
+#pricing {
+  background-color: transparent !important;
+}
+
+.card {
+  background-color: transparent !important;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+}
+#testimonial .bg-own {
+  background: rgba(250, 246, 255, 0) !important; 
+  backdrop-filter: blur(8px);
+
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+
+  box-shadow:
+    0 8px 32px rgba(183, 166, 222, 0.25);
+}
+
+.brand-div-bg{
+  padding-top: 5px;
+  padding-bottom: 6px;
+  border-radius: 0rem 0rem 0.75rem 0.75rem;
+  background: linear-gradient(135deg, #080015, #32044e);
+  animation: gradient-animation 18s ease infinite;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #0f13f2, #ad02fc, #de1ab1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.icon-square{
+  background: linear-gradient(300deg, #e6c6e3, #d89df3, #de1ab1);
+}
+
+
+a,
+button,
+input,
+select,
+textarea,
+a:hover,
+button:hover,
+button:focus,
+button:active,
+input:hover,
+input:focus {
+  cursor: url("./images/paw.png") 16 16, auto !important;
+}
+
+.cat-navbar {
+  background: linear-gradient(135deg, #080015, #32044e);
+  animation: gradient-animation 18s ease infinite;
+  padding: 0.8rem 1.2rem;
+}
+
+.cat-navbar .navbar-brand,
+.cat-navbar .nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.cat-navbar .nav-link:hover {
+  color: #ffd6e8;
+}
+
+.cat-navbar .nav-link.active {
+  color: #ffb3d9;
+}
+
+.cat-navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.cat-navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.cat-navbar .dropdown-menu {
+  background-color: #2d1b4e;
+  border: none;
+  border-radius: 16px;
+  padding: 0.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.cat-navbar .dropdown-item {
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.cat-navbar .dropdown-item:hover {
+  background-color: #d63384;
+  color: #fff;
+}
+
+.cat-navbar .dropdown-divider {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-control:focus {
+  border-color: #a406f3;
+  box-shadow: 0 0 0 0.25rem rgba(214, 51, 132, 0.25);
+}
+
+.cat-input {
+  background-color: #d2c0e1 !important;
+  color: #2d1b4e !important;
+  border: 2px solid #6f42c1 !important;
+  border-radius: 999px;
+}
+
+.cat-input::placeholder {
+  color: #b88ad9 !important;
+  opacity: 1;
+}
+
+.cat-input:focus {
+  background-color: #f8f0ff !important;
+  color: #2d1b4e !important;
+  border-color: #b833d6 !important;
+  box-shadow: 0 0 0 0.25rem rgba(214, 51, 132, 0.3) !important;
+}
+
+.cat-btn-outline {
+  background-color: transparent !important;
+
+  color: #6f42c1 !important;
+  border: 2px solid #6f42c1 !important;
+
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.cat-btn-outline:hover {
+  background-color: #6f42c1 !important;
+  color: #fff !important;
+}
+
+.cat-btn-outline:active {
+  background-color: #d63384 !important;
+  border-color: #d63384 !important;
+  color: #fff !important;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
