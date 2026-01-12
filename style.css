@@ -131,7 +131,8 @@ input:focus {
 }
 
 .cat-input::placeholder {
-  color: #b88ad9 !important;
+  color: #512074 !important;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   opacity: 1;
 }
 
